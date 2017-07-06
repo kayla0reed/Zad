@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+/*== Heading ==*/
+
+.main-header {
+	background: #E6C08A;
+	padding: 3.2em 0;
+}
+
+.logo {
+	position: relative;
+}
