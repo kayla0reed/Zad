@@ -15,7 +15,7 @@ a {
 /*== Heading ==*/
 
 .main-header {
-	background: #ffd699;
+	background: #578194;
 	padding: 1px;
 	height: 150px;
 }
@@ -46,3 +46,27 @@ a {
 	padding: 1em;
 	background: #DCDCDC;
 }
+
+.about h3 {
+	text-align: center;
+}
+
+
+.overlay {
+
+}
+.about {
+	color: white;
+	text-align: left;
+	padding: 1em;
+	background: 
+		linear-gradient(
+			rgba(0,0,0,0.45),
+			rgba(0,0,0,0.45)
+		),
+		url("../img/paint.jpg");
+	/*background: url('../img/pom.jpg') no-repeat center; */
+	background-size: cover;
+	/*box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);*/
+}
+
