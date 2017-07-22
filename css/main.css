@@ -211,6 +211,9 @@ input[type=submit]:hover {
 	padding: 20px;
 	width: 100%;
 }
+.container-contact h3 {
+	text-align: center;
+}
 
 /* Map */
 #map {
@@ -302,10 +305,10 @@ input[type=submit]:hover {
 
 @media (min-width: 769px) {
 	.top-img {
-		height: 500px;
+		height: 550px;
 	}
 	.platter {
-		height: 500px;
+		height: 550px;
 	}
 	.about {
 		height: 450px;
@@ -338,6 +341,15 @@ input[type=submit]:hover {
 	.container-contact {
 		padding-left: 6em;
 		padding-right: 6em;
+	}
+
+	.contact-address {
+		float: left;
+		padding-left: 150px;
+	}
+	.contact-hours {
+		float: right;
+		padding-right: 150px;
 	}
 
 	/*== Menu pages ==*/
