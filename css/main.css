@@ -32,11 +32,11 @@ a {
 
 .logo {
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 	margin: auto;
 	display: block;
-	bottom: 25%;
+	/*bottom: 25%;*/
 	z-index: 5;
 }
 
@@ -70,10 +70,6 @@ a {
 	font-size: 1.375em;
 }
 
-
-.overlay {
-
-}
 .about {
 	color: white;
 	font-size: 1em;
@@ -304,6 +300,10 @@ input[type=submit]:hover {
 }
 
 @media (min-width: 769px) {
+	.logo {
+		float: left;
+
+	}
 	.top-img {
 		height: 550px;
 	}
