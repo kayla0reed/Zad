@@ -13,6 +13,22 @@ a {
 	text-decoration: none;
 }
 
+/*== Navigation ==*/
+/*.nav {
+	margin-top: 5px;
+	float: right;
+}
+
+.nav a {
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}*/
+
+
 /*== Heading ==*/
 
 .main-header {
@@ -302,13 +318,19 @@ input[type=submit]:hover {
 @media (min-width: 769px) {
 	.logo {
 		float: left;
-
+	}
+	.nav {
+		float: right;
+	}
+	.nav li {
+		display: inline-block;
+		margin-left: 15px;
 	}
 	.top-img {
-		height: 550px;
+		height: 640px;
 	}
 	.platter {
-		height: 550px;
+		height: 640px;
 	}
 	.about {
 		height: 450px;
