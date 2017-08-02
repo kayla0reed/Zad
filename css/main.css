@@ -385,3 +385,12 @@ input[type=submit]:hover {
 		height: 550px;
 	}
 }
+
+@media (min-device-width: 1200){
+	.top-img {
+		height: 500px;
+	}
+	.platter {
+		height: 500px;
+	}
+}
