@@ -34,7 +34,7 @@ a {
 .main-header {
 	background: #578194;
 	padding: .5em;
-	height: 150px;
+	height: 130px;
 }
 
 .address, .number {
@@ -48,8 +48,8 @@ a {
 
 .logo {
 	position: relative;
-	width: 130px;
-	height: 130px;
+	width: 115px;
+	height: 115px;
 	margin: auto;
 	display: block;
 	/*bottom: 25%;*/
@@ -316,7 +316,8 @@ input[type=submit]:hover {
 	clear: both;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px)
+ {
 	.logo {
 		float: left;
 	}
@@ -388,9 +389,9 @@ input[type=submit]:hover {
 
 @media (min-width: 1200){
 	.top-img {
-		height: 1000px;
+		height: 900px;
 	}
 	.platter {
-		height: 1000px;
+		height: 900px;
 	}
 }
