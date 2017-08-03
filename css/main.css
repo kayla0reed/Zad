@@ -137,7 +137,7 @@ a {
 	color: #fff;
 	font-family: sans-serif;
 	height: 60px;
-	width: 150px;
+	width: 130px;
 	text-align: center;
 	border: 0;
 	margin-bottom: 1em;
@@ -386,11 +386,11 @@ input[type=submit]:hover {
 	}
 }
 
-@media (min-device-width: 1200){
+@media (min-width: 1200){
 	.top-img {
-		height: 500px;
+		height: 1000px;
 	}
 	.platter {
-		height: 500px;
+		height: 1000px;
 	}
 }
