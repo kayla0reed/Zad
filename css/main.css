@@ -6,9 +6,17 @@ body {
 	font-family: Arial;
 	line-height: 1.6;
 	color: #3a3a3a;
-
 }
 
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+*, 
+*:before,
+*:after {
+	box-sizing: inherit;
+}
 a {
 	text-decoration: none;
 }
@@ -330,6 +338,18 @@ input[type=submit]:hover {
 	font-family: arial;
 	margin-top: -22px;
 }
+
+/*== Footer ==*/
+.footer {
+	height: 80pX;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
+}
+
 
 /*== Float clearfix ==*/
 
