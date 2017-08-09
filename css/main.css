@@ -344,16 +344,17 @@ input[type=submit]:hover {
 	.logo {
 		float: left;
 	}
-	.nav {
+	.main-nav {
 		float: right;
 		margin: 10px 15px;
 		margin-top: 2.5em;
 	}
-	.nav li {
+	.main-nav li {
 		display: inline-block;
 		margin-left: 15px;
+		float: right;
 	}
-	.nav a {
+	.main-nav a {
 		color: #3acec2;
 	}
 	.top-img {
