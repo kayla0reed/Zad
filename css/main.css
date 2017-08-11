@@ -341,7 +341,8 @@ input[type=submit]:hover {
 
 /*== Footer ==*/
 .footer {
-	height: 80pX;
+	height: 80px;
+	width: 100%;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -481,6 +482,7 @@ input[type=submit]:hover {
 	/*== Menu pages ==*/
 	.mezza-platter {
 		height: 550px;
+		margin-top: 0;
 	}
 }
 
