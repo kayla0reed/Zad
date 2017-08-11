@@ -361,6 +361,7 @@ input[type=submit]:hover {
 
 @media (min-width: 769px)
  {
+ 	/*Navigation*/
 	.logo {
 		float: left;
 	}
@@ -376,8 +377,47 @@ input[type=submit]:hover {
 	}
 	.main-nav a {
 		color: #3acec2;
-		padding: 10px 4px;
+		padding: 10px 2px;
+		margin: 10px;
+		margin-top: 1px;
 	}
+	/*==Dropdown==*/
+	.dropbtn {
+		background-color: ;
+		color: #3acec2;
+		padding: 10px;
+		border: none;
+		cursor: pointer;
+		font-size: .95em;
+	}
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 150px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	.dropdown-content a:hover {
+		background-color: #f1f1f1;
+	}
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+	.dropdown:hover .dropbtn {
+		background-color: ;
+	}
+	/*Banner*/
 	.top-img {
 		height: 710px;
 		margin-top: 0;
@@ -390,6 +430,7 @@ input[type=submit]:hover {
 		margin-left: .5em;
 		margin-right: .5em;
 	}
+	/*About*/
 	.about {
 		height: 450px;
 		font-size: 16px;
@@ -399,6 +440,7 @@ input[type=submit]:hover {
 		margin: 0 .5em 0 .5em;
 		padding: 2em 4em 0 4em;
 	}
+	/*Menu*/
 	.menu-body {
 		height: 700px;
 	}
@@ -410,11 +452,13 @@ input[type=submit]:hover {
 		display: flex;
 		flex-direction: column;
 	}
+	/*Catering*/
 	.catering {
 		margin-top: 0;
 		margin-left: .5em;
 		margin-right: .5em;
 	}
+	/*Contact*/
 	.contact {
 		margin-left: .5em;
 		margin-right: .5em;
