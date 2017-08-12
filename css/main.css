@@ -433,7 +433,7 @@ input[type=submit]:hover {
 	}
 	/*About*/
 	.about {
-		height: 450px;
+		height: 600px;
 		font-size: 16px;
 		display: flex;
 		flex-direction: column;
@@ -442,14 +442,12 @@ input[type=submit]:hover {
 		padding: 2em 4em 0 4em;
 	}
 	/*Menu*/
-	.menu-body {
-		height: 700px;
-	}
 	.menu-link {
 		padding-left: 10em;
 		padding-right: 10em;
 		margin-left: .5em;
 		margin-right: .5em;
+		height: 600px;
 		display: flex;
 		flex-direction: column;
 	}
@@ -458,11 +456,13 @@ input[type=submit]:hover {
 		margin-top: 0;
 		margin-left: .5em;
 		margin-right: .5em;
+		height: 600px;
 	}
 	/*Contact*/
 	.contact {
 		margin-left: .5em;
 		margin-right: .5em;
+		padding-bottom: 2em;
 	}
 	.container-contact {
 		padding-left: 6em;
