@@ -112,8 +112,9 @@ a {
 
 /* About section */
 .about-h3 {
+	font-family: 'Dancing Script', cursive;
 	text-align: center;
-	font-size: 1.375em;
+	font-size: 2.5em;
 }
 
 .about {
@@ -153,6 +154,8 @@ a {
 .menu-link h2 {
 	margin: 0;
 	position: absolute;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.5em;
 	left: 50%;
 	padding-top: 35%;
 	margin-right: -50%;
