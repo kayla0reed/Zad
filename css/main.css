@@ -65,7 +65,7 @@ a {
 }
 
 /*== Navigation ==*/
-.main-nav a {
+.main-nav a, .dropbtn {
 	display: block;
 	text-align: center;
 	padding: 10px 15px;
