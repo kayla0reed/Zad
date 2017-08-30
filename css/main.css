@@ -441,15 +441,13 @@ input[type=submit]:hover {
 		display: flex;
 		flex-direction: column;
 		flex-grow: 1;
-		margin: 0 .5em 0 .5em;
+		margin: 0 0;
 		padding: 2em 4em 0 4em;
 	}
 	/*Menu*/
 	.menu-link {
 		padding-left: 10em;
 		padding-right: 10em;
-		margin-left: .5em;
-		margin-right: .5em;
 		height: 600px;
 		display: flex;
 		flex-direction: column;
