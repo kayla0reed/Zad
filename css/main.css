@@ -21,26 +21,10 @@ a {
 	text-decoration: none;
 }
 
-/*== Navigation ==*/
-/*.nav {
-	margin-top: 5px;
-	float: right;
-}
-
-.nav a {
-	display: block;
-	text-align: center;
-	padding: 10px 15px;
-	font-size: .95em;
-	color: #3acec2;
-	text-transform: uppercase;
-} */
-
-
 /*== Heading ==*/
 
 .main-header {
-	background: #578194;
+	background: #AB492E;
 	padding: .5em;
 	height: 130px;
 }
