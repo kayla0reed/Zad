@@ -419,22 +419,24 @@ input[type=submit]:hover {
 		margin-right: .5em;
 	}
 	/*About*/
+	.flex-container {
+
+	}
 	.about {
 		height: 600px;
+		width: 50%;
 		font-size: 16px;
-		display: flex;
-		flex-direction: column;
-		flex-grow: 1;
 		margin: 0 0;
 		padding: 2em 4em 0 4em;
+		float: left;
 	}
 	/*Menu*/
 	.menu-link {
 		padding-left: 10em;
 		padding-right: 10em;
 		height: 600px;
-		display: flex;
-		flex-direction: column;
+		width: 50%;
+		float: right;
 	}
 	/*Catering*/
 	.catering {
