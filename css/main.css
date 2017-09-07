@@ -71,6 +71,11 @@ a {
 .top-img {
 	height: 450px;
 	margin-top: 250px;
+	background: linear-gradient(
+		rgba(20,20,20, .5),
+		rgba(20,20,20, .5)),
+		url("../img/tomato.jpg");
+	background-size: cover;
 }
 
 .platter {
@@ -368,6 +373,7 @@ input[type=submit]:hover {
 		color: #3acec2;
 		padding: 10px 2px;
 		margin-top: 1px;
+
 	}
 	/*==Dropdown==*/
 	.dropbtn {
