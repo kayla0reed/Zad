@@ -160,7 +160,7 @@ a {
 	border: 0;
 	margin-bottom: 1em;
 	transition: all 0.3s ease 0s;
-	opacity: .85;
+	opacity: .97;
 }
 .button:hover {
 	opacity: 0.65;
