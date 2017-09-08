@@ -430,25 +430,14 @@ input[type=submit]:hover {
 	}
 	.about {
 		height: 600px;
-		width: 50%;
 		font-size: 16px;
 		margin: 0 0;
 		padding: 2em 4em 0 4em;
-		float: left;
 	}
 	/*Menu*/
 	.menu-link {
 		padding-left: 10em;
 		padding-right: 10em;
-		height: 600px;
-		width: 50%;
-		float: right;
-	}
-	/*Catering*/
-	.catering {
-		margin-top: 0;
-		margin-left: .5em;
-		margin-right: .5em;
 		height: 600px;
 	}
 	/*Contact*/
