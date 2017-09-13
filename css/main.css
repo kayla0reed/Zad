@@ -168,13 +168,14 @@ a {
 		);
 	color: #fff;
 	font-family: sans-serif;
-	height: 60px;
-	width: 110px;
+	height: 50px;
+	width: 80px;
 	text-align: center;
 	border: 0;
 	margin-bottom: 1em;
 	transition: all 0.3s ease 0s;
 	opacity: .97;
+
 }
 .button:hover {
 	opacity: 0.65;
@@ -186,9 +187,7 @@ a {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: space-around;
-	align-items: center;
-	padding: .5em;
+	
 	padding-top: 50%;
 }
 /* Catering section */
