@@ -57,12 +57,17 @@ a {
 	font-size: .95em;
 	text-transform: uppercase;
 	color: #3acec2;
+	background: #D3D3D3;
+}
+.main-nav {
+	background: #d3d3d3;
 }
 .main-nav a:hover {
 	color: #093a58;
 }
 .main-nav li {
 	list-style: none;
+
 }
 
 
@@ -152,11 +157,12 @@ a {
 		border-radius: 10px;
 }
 
-.menu-link h2 {
+.menu-h2 {
 	margin: 0;
 	position: absolute;
 	font-family: 'Dancing Script', cursive;
 	font-size: 2.5em;
+	color: #2E2E2E;
 	left: 50%;
 	padding-top: 35%;
 	margin-right: -50%;
@@ -383,6 +389,7 @@ input[type=submit]:hover {
 		color: #3acec2;
 		padding: 10px 2px;
 		margin-top: 1px;
+		background: none;
 
 	}
 	/*==Dropdown==*/
